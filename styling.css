@@ -2,10 +2,6 @@ body {
   background: #f8f9fa;
 }
 
-.header-bg {
-  background: linear-gradient(90deg, #ff416c, #ff4b2b);
-}
-
 .logo {
   width: 80px;
 }
@@ -23,9 +19,4 @@ body {
 
 #app {
   background: #ffffff;
-}
-
-footer {
-  background-color: #212529;
-  color: #fff;
 }
