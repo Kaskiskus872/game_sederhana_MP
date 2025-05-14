@@ -1,0 +1,65 @@
+/* Tambahan gaya jika dibutuhkan */
+
+body {
+    scroll-behavior: smooth;
+  }
+  
+  /* Logo */
+  .logo {
+    width: 80px;
+    height: auto;
+  }
+  
+  /* Animasi untuk hasil pertandingan */
+  #inGame,
+  #result {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Tombol saat hover */
+  .games button:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Responsive spacing untuk section */
+  .section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  /* Smooth hover effect */
+  .option {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .option:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Menyelaraskan teks jika terlalu besar */
+  #inGame {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  #result {
+    font-size: 1.2rem;
+    color: #28a745;
+  }
+  
+  /* Border lingkaran jika ingin mempercantik tombol */
+  .games button {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    line-height: 60px;
+  }
+  
+  /* Footer sticky jika konten sedikit */
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
